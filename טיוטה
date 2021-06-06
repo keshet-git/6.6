@@ -1,0 +1,22 @@
+import requests
+
+class Dish
+pass
+
+dish = Dish()
+dish.1 = "salad"
+dish.2 = "fish
+dish.3 = "soup"
+dish.4 = "unsweetened pie"
+dish.5 = "filled pastry"
+dish.6 = "meat"
+dish.7 = "chke"
+dish.8 = "cookie & biscuit",
+dish.9 = "pancake"
+
+print(1)
+
+response = requests.request("GET", "https://webknox-recipes.p.rapidapi.com/recipes/quickAnswer", headers={
+    'x-rapidapi-key': "f138806c43msh3b687f6944deec7p1fd922jsna79b7d9f1df4",
+    'x-rapidapi-host': "webknox-recipes.p.rapidapi.com"
+    }, {"q":"How much vitamin c is in 2 apples?"}=querystring)
